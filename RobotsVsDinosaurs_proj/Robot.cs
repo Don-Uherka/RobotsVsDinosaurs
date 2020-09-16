@@ -12,7 +12,7 @@ namespace RobotsVsDinosaurs_proj
         public string name;
         public int health;
         public int powerLevel;
-        public string weopon;
+        public Weapon weapon;
         
 
         //constructor
@@ -21,13 +21,13 @@ namespace RobotsVsDinosaurs_proj
             this.name = name;
             this.health = health;
             this.powerLevel = powerLevel;
-            this.weopon = weopon;
+            this.weapon = new Weapon();
             
         }
         //method
-        public void Attack()
+        public void Attack(Dinosaur dinosaur)
         {
-             
+            dinosaur.Health -= weapon.attackPower;
         }
 
         
