@@ -8,5 +8,16 @@ namespace RobotsVsDinosaurs_proj
 {
     class Battlefield
     {
+        //member variable
+        public Herd herd;
+        public Fleet fleet;
+
+        //constructor
+        public Battlefield()
+        {
+            herd = new Herd();
+        }
+
+        //member methods
     }
 }

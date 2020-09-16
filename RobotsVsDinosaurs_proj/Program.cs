@@ -10,6 +10,9 @@ namespace RobotsVsDinosaurs_proj
     {
         static void Main(string[] args)
         {
+            Battlefield battlefield = new Battlefield();
+            //call the battlefield's main method here
+            Console.ReadLine();
         }
     }
 }
